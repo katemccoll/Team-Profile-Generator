@@ -13,6 +13,14 @@ class Manager extends Employee {
     getRole() {
         return "Manager";
     }
+
+    getIcon() {
+        return "fas fa-mug-hot";
+    }
+
+    generateSpecialRows() {
+        return `<li class="list-group-item">Office Number: ${this.getOfficeNumber()}</li>`
+    }
 }
 
 module.exports = Manager;

@@ -15,6 +15,14 @@ class Engineer extends Employee {
         return "Engineer";
     }
 
+    getIcon() {
+        return "fas fa-glasses";
+    }
+
+    generateSpecialRows() {
+        return `<li class="email list-group-item">Github: <a href="https://github.com/${this.getGithub()}">${this.getGithub()}</a></li>`
+    }
+
 }
 
 module.exports = Engineer;

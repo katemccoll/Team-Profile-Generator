@@ -15,6 +15,12 @@ class Intern extends Employee {
         return "Intern";
     }
 
+    getIcon() {
+        return "fas fa-user-graduate"
+    }
+    generateSpecialRows() {
+        return `<li class="school list-group-item">School: ${this.getSchool()}</li>`
+    }
 }
 
 module.exports = Intern;
