@@ -3,7 +3,8 @@
 ## Description
 To build a Node.js command-line application that takes in information about employees on a software engineering team. This then generates an HTML webpage that displays summaries for each person.
 
-### Video Link: https://drive.google.com/file/d/1Hb2hd6ihRz5mbuw5J1d8DFRvZFKWrJRo/view
+### Video Link: 
+https://drive.google.com/file/d/1Hb2hd6ihRz5mbuw5J1d8DFRvZFKWrJRo/view
 
 ## Table of Contents
 - [User Story](#user-story)
@@ -63,7 +64,7 @@ jest
 node index.js
 
 ## Results
-![photo](./assets/images/result.JPG)
+![photo](./assets/images/Result.JPG)
 
 
 ## License
